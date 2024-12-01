@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Management</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Dynamic Form Builder</h1>
+        <div id="field-form">
+            <input type="text" id="field-label" placeholder="Field Label">
+            <select id="field-type">
+                <option value="text">Text</option>
+                <option value="number">Number</option>
+                <option value="date">Date</option>
+                <option value="password">Password</option>
+            </select>
+            <button onclick="addField()">Add Field</button>
+        </div>
+
+        <div id="form-preview"></div>
+        <button onclick="submitForm()">Submit Employee</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
